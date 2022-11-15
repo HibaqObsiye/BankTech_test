@@ -4,7 +4,7 @@ class Account{
         this.transactions = []
     }
 
-   sumbitTransaction(date,amount){
+   sumbitTransaction(date, amount){
     this.balance += amount;
     const transaction = {
       date: date,
