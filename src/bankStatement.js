@@ -18,7 +18,7 @@ class BankStatement {
     printStatement() {
         let statementScript = this.statementLayout(this.account.transactions);
 
-        statementScript.push(['date || credit || debit || balance', ])
+        statementScript.unshift(['date || credit || debit || balance', ])
 
 
         const statement = statementScript.join('\n');
