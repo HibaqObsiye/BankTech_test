@@ -48,3 +48,5 @@ date || credit || debit || balance
 ## Design
 
 ### Diagram of the class systems
+
+![bank](./images/bank_plan.png)
